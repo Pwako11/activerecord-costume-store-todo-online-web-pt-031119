@@ -7,7 +7,8 @@ class CostumeStores < ActiveRecord::Migration[4.2]
       t.string :location
       t.integer :costumeinventory
       t.integer :employees
-      t.integer :calories
+      t.boolean :open
+      
       
       t.timestamps
     end
